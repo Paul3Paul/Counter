@@ -1,0 +1,68 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#counter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 6px 6px 6px;
+    height: 400px;
+    width: 400px;
+    gap: 5px; 
+}
+#count
+{
+    font-size: 50px;
+    animation: countt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-top: -100px;
+   
+}
+@keyframes countt
+{
+  from{color: aqua;}
+  to{color: darkblue;}
+}
+#bt1
+{
+    color: wheat;
+    background-color: rgb(4, 31, 31);
+    border-radius: 20px;
+    height: 30px;
+    transition: all 2s;
+}
+#bt2
+{
+    color: wheat;
+    background-color: rgb(4, 31, 31);
+    border-radius: 20px;
+    height: 30px;
+    transition: all 2s;
+}
+#bt3
+{
+    color: wheat;
+    background-color: rgb(4, 31, 31);
+    border-radius: 20px;
+    height: 30px;
+    transition: all 2s;
+}
+.btn:hover
+{
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+.num
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
