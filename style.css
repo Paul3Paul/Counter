@@ -4,6 +4,7 @@ body
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: linear-gradient(yellow,greenyellow,rgb(233, 116, 116));
 }
 #counter
 {
@@ -11,10 +12,14 @@ body
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    box-shadow: 6px 6px 6px;
+    box-shadow: 10px 10px 10px;
     height: 400px;
     width: 400px;
     gap: 5px; 
+    background:linear-gradient(red,white,green);
+  
+    
+    
 }
 #count
 {
@@ -23,12 +28,13 @@ body
     animation-duration: 3s;
     animation-iteration-count: infinite;
     margin-top: -100px;
+    text-shadow: 2px 2px black;
    
 }
 @keyframes countt
 {
-  from{color: aqua;}
-  to{color: darkblue;}
+  from{color:red;}
+  to{color:cyan;}
 }
 #bt1
 {
@@ -37,6 +43,8 @@ body
     border-radius: 20px;
     height: 30px;
     transition: all 2s;
+
+    
 }
 #bt2
 {
@@ -66,3 +74,24 @@ body
     align-items: center;
     
 }
+#fh
+{
+    margin-bottom: 520px;
+    margin-left: px;
+    color: aqua;
+    animation: countt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    text-shadow: 2px 2px black;
+   font-family: georgia,serif;
+}
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(23, 24, 23);
+    color: white;
+    text-align: center;
+    height: 11%;
+ }
